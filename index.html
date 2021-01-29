@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <nav>
+            <a href="#" class="logo">Web Developer</a>
+
+            <ul>
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="text-container">
+            <p>Hello,</p>
+            <p>I'M VIANNEY</p>
+            <p>I am a Full Stack Developer</p>
+            <button class="down-cv">Download CV</button>
+        </div>
+
+    </section>
+
+    <div class="about-container">
+        <img src="images/me3.png">
+        <div class="about-text" id="about">
+            <p>About Me</p>
+            <p>I live in Manchester, I am a husband and a father to a beautiful 5 months old baby girl called Felicity-Rose. I am bilingual and
+                I am currently attending the coding bootcamp at the University Of Manchester which I am projected to finish the program in May 2021.
+                I am enjoying furthering my knowledge in the IT world and hope to continue to do so upon completion.
+            </p>
+            <p>Before transitioning into web development, I diligently worked as a field service engineer throughout England, Scotland, Wales and France.
+                While in the field engineering industry I found myself enjoying the technical and computer driven aspects of the office 
+                which lead me to follow my true passion for full stack development.</p>
+        </div>
+    </div>
+
+    <div class="box-container">
+        <div class="box-1" id="skills">
+            <p class="heading">Skills</p>
+            <p class="details">Front End: HTML | CSS | JavaScript | TypeScript | React | jQuery | Bootstrap | Tailwind
+                <br>
+                Back End: Node.js | Express | JSON | MySQL
+                <br>
+                Tools: Gitlab | Github | Heroku
+                <br>
+                Testing: Jest
+                <br>
+                Office: Microsoft Office | Excel | Word | PowerPoint | Adobe</p>
+        </div>
+        <div class="box-2" id="projects">
+            <p class="heading">Projects</p>
+            <p>Throughout the course I have managed to to complete numerous homeworks and one group project with my classmates.
+                Please click the links below to find out more about them.
+            </p>
+            <p class="details">
+                <a href="https://vianneyk.github.io/Weather-Dashboard/" target="#blank"><img src="images/weather-dashboard.png"></a>
+                
+                <a href=" https://vianneyk.github.io/Third-Party-Apis/" target="#blank"><img src="images/work-day-planner.png"></a>
+            
+                <a href="https://davidlshonn.github.io/fixture-and-betting-app/" target="#blank"><img src="images/matches.png"></a></p>
+        </div>
+        <div class="box-3" id="contacts">
+            <p class="heading">Contacts</p>
+            <p>For any questions or more information, please contact me on the links below</p>
+            <p class="social-icons">
+                <a href="https://github.com/Vianneyk"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vianney-c%C3%A9lestin-k-489131b8/"><i class="fab fa-linkedin-in"></i></i></a>
+                <a href="mailto: vianneyk@hotmail.co.uk"><i class="far fa-envelope"></i></i></a>
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Copyright by Vianney</p>
+    </footer>
+
+    <div class="a-social-b">
+        <a href="https://github.com/Vianneyk"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/vianney-c%C3%A9lestin-k-489131b8/"><i class="fab fa-linkedin-in"></i></i></a>
+        <a href="mailto: vianneyk@hotmail.co.uk"><i class="far fa-envelope"></i></i></a>
+    </div>
+
+</body>
+
+ <!--jQuery-------------------->
+
+ <script type="text/javascript">
+ $(document).ready(function(){
+     $('.toggle').click(function(){
+         $('.toggle').toggleClass('active')
+         $('nav').toggleClass('active')
+     })
+ })
+ </script>
+</html>
